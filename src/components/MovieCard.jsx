@@ -3,7 +3,7 @@ import svg from '../assets/star.svg';
 
 function MovieCard({ poster, title, rating, language, release_year }) {
   return (
-    <div className="p-4 rounded-lg shadow-lg bg-[#0F0D23]">
+    <div className="p-4 rounded-lg shadow-lg bg-[#0F0D23] display-grid">
       <img
         src={`https://image.tmdb.org/t/p/w500/${poster}`}
         alt=""
