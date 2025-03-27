@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <img src={img} className="w-[40%] object-cover" />
       <article>
-        <h1 className="text-6xl max-w-[700px] w-full text-center font-bold">
+        <h1 className="text-6xl max-w-[700px] w-full text-center font-bold py-4">
           Find <span className="text-[#BAA1FF]">Movies</span> You'll Enjoy
           Without the Hassle
         </h1>
